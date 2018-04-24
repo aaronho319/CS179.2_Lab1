@@ -1,46 +1,122 @@
 <!DOCTYPE html>
-
+<!-- the main language of the page declared -->
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-secale=1.0">
-		<link rel="stylesheet" href="fonts.css" media="none" onload="if(media!='all')media='all'">
-		<noscript><link rel="stylesheet" href="fonts.css"></noscript>
-		<link rel="stylesheet" href="main.css" media="none" onload="if(media!='all')media='all'">
-    	<noscript><link rel="stylesheet" href="main.css"></noscript>
-		<title>Urban Forest</title>
-	</head>
-	<body>
-		<header>
-			<a href="/"><img src="http://via.placeholder.com/50x50" alt=""></a>
-			<nav id="navigation">
-				<button aria-expanded="false"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt=""></button>
-				<ul class="nav-links">
-					<li><a href="/">Home</a></li>
-        		  	<li><a href="/about">About</a></li>
-          			<li><a href="/shop">Shop</a></li>
-          			<li><a href="/contact">Contact</a></li>
-				</ul>	
-			</nav>
-		</header>
-		<main id="main">
-			<div class="article_head">
-				<a href="head.html">
-					<h1>Robinsons Magnolia</h1>
-					<p>An open space for pets and tired legs</p>		
-				</a>
-				<a href="head.html">
-					<figure>
-						<img src="https://previews.123rf.com/images/junpinzon/junpinzon1406/junpinzon140600029/28842904-robinsons-magnolia-mall-in-quezon-city-manila-philippines-in-asia.jpg">
-					</figure>
-				</a>
-				<a href="head.html">
-					<h2>More Projects</h2>
-					<figure>
-						<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/551749-200.png">
-					</figure>
-				</a>
-			</div>
-		</main>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <!-- a viewport declaration which does not disable zooming -->
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <!-- a non-blocking stylesheet -->
+    <link rel="stylesheet" href="main.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- a descriptive label for the page -->
+    <title>LAB 1</title>
+  </head>
+  <body>
+    <header>
+    <!-- Best People in the World-->
+    	<img src="src/Aaron.png" id="Aaron">
+    <!-- Hamburger Icon -->
+        <div>
+          <img src="src/hbg.png"  id="hbg">
+        </div>
+    </header>
+    
+    <main>
+    <!-- Title -->
+    <div id="headline-area">
+        <div id="headline-text">
+          <h2>Harvard Yard</h2>
+          <p>An open space for smart people.</p>
+        </div>
+    <!-- Main Photo -->
+        <img src="src/harvard.jpg" id="headline-photo" height="850px">
+    <!-- More Photos -->
+        <a href="#subtitle-area" id="more-photos"> More Photos </a>
+    </div>
+    <!-- Contact Me -->
+      <div id="contact-us-area">
+      <p>Come here and ... </p>
+      <a href=""> CONTACT ME </a>
+      </div>
+    <!-- Subtitle -->
+
+    <div id="subtitle-area">
+      <h2>A Place of Smartness</h2>
+      <p>Take a look at the places!</p>
+    </div>
+    <!-- Photos -->
+    <div id="features-area">
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image1.jpg" class="rotate">
+        </div>
+        <p>Manhattan Area</p>
+      </div>
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image2.jpg">
+       </div>
+        <p>Madison Square Garden</p>
+      </div>
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image3.jpg" class="rotate">
+        </div>
+        <p>Grand Central Station </p>
+      </div>
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image4.jpg" class="rotate">
+        </div>
+        <p>Statue of Liberty</p>
+      </div>
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image5.jpg">
+        </div>
+        <p>Lincoln Statue</p>
+      </div>
+      <div class="features">
+        <div class="features-img-area">
+          <img src="src/image6.jpg">
+       </div>
+        <p>Harvard Presentation</p>
+      </div> 
+    </div>
+
+    </main>
+    <footer>
+    <div id="footer-top">
+      <!-- Photo -->
+      <div id="tailline-area">
+        <img src="src/divider.jpg" id="tailline">
+      </div>
+     
+        <!-- List -->
+      <div id="credentials">
+        <h4> Featured Places </h4>
+        <p>New York</p>
+        <p>Boston</p>
+        <p>Washington</p>
+        <p>Aaron Himself</p>
+      </div>
+    </div>
+    <!-- Urban Fresh -->
+
+    <div id="footer-bottom">
+      <h2>States</h2>
+    <!-- Links -->
+      <div id="footer-icons">
+        <a href="fb.com/aaronho319"><img src="src/f.png"></a>
+        <a href="twitter.com/"><img src="src/t.png"></a>
+        
+        <a href="aaronstevenson.ho@gmail.com"><img src="src/g.png"></a>
+      </div>
+    </div>
+    </footer>
+  </body>
 </html>
